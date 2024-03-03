@@ -1,0 +1,71 @@
+.supercarsContainer {
+    height: 100vh;
+    color: #FFF;
+    background-color: #121212;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .mainContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  table thead tr {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+  }
+  
+  table tbody tr {
+    border-bottom: thin solid #666;
+  }
+  
+  table tbody tr:nth-of-type(even) {
+    background-color: #242424;
+  }
+  
+  table tbody tr:last-of-type {
+    border-bottom: 2px solid #333;
+  }
+  
+  table tbody tr:hover {
+    background-color: #2e2e2e;
+  }
+  
+  .carImage {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .carImage:hover {
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    color: #FFF;
+    margin-bottom: 2rem;
+  }
+  
